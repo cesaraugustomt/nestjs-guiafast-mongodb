@@ -3,14 +3,34 @@ import { InjectModel } from '@nestjs/mongoose';
 import * as mongoose from 'mongoose';
 import { Place } from 'src/repository/schemas/place.schema';
 
+import { Query } from 'express-serve-static-core';
+
 @Injectable()
 export class PlaceService {
   constructor(
     @InjectModel(Place.name) private placeModel: mongoose.Model<Place>,
   ) {}
 
-  async findAll(): Promise<Place[]> {
-    const places = await this.placeModel.find();
+  async findAll(query: Query): Promise<Place[]> {
+    console.log(query);
+
+    const resPerPage = 4;
+    const currentPage = Number(query.page) || 1;
+    const skip = resPerPage * (currentPage - 1);
+
+    const keyword = query.keyword
+      ? {
+          subtypes: {
+            $regex: query.keyword,
+            $options: 'i',
+          },
+        }
+      : {};
+
+    const places = await this.placeModel
+      .find({ ...keyword })
+      .limit(resPerPage)
+      .skip(skip);
     return places;
   }
 

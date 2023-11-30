@@ -6,6 +6,7 @@ import {
   Param,
   Put,
   Delete,
+  Query,
 } from '@nestjs/common';
 
 import { PlaceService } from './../service/place.service';
@@ -13,13 +14,15 @@ import { Place } from 'src/repository/schemas/place.schema';
 import { CreatePlaceDto } from '../dtos/CreatePlace.dto';
 import { UpdatePlaceDto } from '../dtos/UpdatePlace.dto';
 
+import { Query as ExpressQuery } from 'express-serve-static-core';
+
 @Controller('place')
 export class PlaceController {
   constructor(private placeService: PlaceService) {}
 
   @Get()
-  async getAllPlaces(): Promise<Place[]> {
-    return this.placeService.findAll();
+  async getAllPlaces(@Query() query: ExpressQuery): Promise<Place[]> {
+    return this.placeService.findAll(query);
   }
 
   @Get(':id')

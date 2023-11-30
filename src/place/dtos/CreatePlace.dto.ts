@@ -1,13 +1,25 @@
 export class CreatePlaceDto {
-  readonly name: string;
-  readonly description: string;
-  readonly images?: string[];
-  readonly address: string;
   readonly business_status: string;
-  readonly location: {
-    type: IType;
-    coordinates: [number, number];
+  readonly geometry: {
+    readonly location: {
+      type: IType;
+      coordinates: [number, number];
+    };
+    readonly viewport?: {
+      northeast: [number, number];
+      southwest: [number, number];
+    };
   };
+  readonly icon_uri?: string[];
+  readonly name: string;
+  readonly opening_hours: {
+    open_now: boolean;
+  };
+  readonly description?: string;
+  readonly photo?: string[];
+  readonly google_id?: string;
+  readonly scope?: string;
+  readonly address: string;
   readonly subtypes?: string[];
 }
 
@@ -28,3 +40,17 @@ type IType =
   | 'Esportes'
   | 'Transporte'
   | 'tipo b';
+
+// id: string;
+// name: string;
+// address: string;
+// phone: string; //place_details
+// instagram: string; //place_details
+// description: string; //place_details
+// status: string; //opening hours
+// image: string;
+// distance: string; //place_location
+// promotion: boolean; //place_promotion
+// promotion_event: string; //place_promotion
+// types: string[];
+// endDataPromotion?: string; //place_promotion

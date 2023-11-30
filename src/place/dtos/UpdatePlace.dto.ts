@@ -1,13 +1,25 @@
 export class UpdatePlaceDto {
-  readonly name: string;
-  readonly description: string;
-  readonly images?: string[];
-  readonly address: string;
   readonly business_status: string;
-  readonly location: {
-    type: IType;
-    coordinates: [number, number];
+  readonly geometry: {
+    readonly location: {
+      type: IType;
+      coordinates: [number, number];
+    };
+    readonly viewport?: {
+      northeast: [number, number];
+      southwest: [number, number];
+    };
   };
+  readonly icon_uri?: string[];
+  readonly name: string;
+  readonly opening_hours: {
+    open_now: boolean;
+  };
+  readonly description?: string;
+  readonly photo?: string[];
+  readonly google_id?: string;
+  readonly scope?: string;
+  readonly address: string;
   readonly subtypes?: string[];
 }
 

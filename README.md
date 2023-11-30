@@ -1,3 +1,8 @@
+## TODO:
+
+Adicione nodejs work na função de calculo de rota
+https://docs.nestjs.com/techniques/queues
+
 ## Description
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.

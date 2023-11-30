@@ -7,24 +7,12 @@ export type PlaceDocument = Place & Document;
   timestamps: true,
 })
 export class Place {
-  @Prop({ type: String, required: true })
-  name: string;
-
-  @Prop({ type: String })
-  description: string;
-
-  @Prop({ type: String })
-  address: string;
-
   @Prop({ type: String })
   business_status: string;
 
-  @Prop({ type: [String] })
-  images?: string[];
-
   @Prop({
     type: {
-      type: String, // Corrigindo o tipo para String
+      type: String,
       enum: {
         values: [
           'Automotivo',
@@ -47,14 +35,63 @@ export class Place {
         message: '{VALUE} não é um tipo válido',
       },
     },
-    coordinates: {
-      type: [Number],
+
+    location: {
+      coordinates: {
+        type: [Number],
+      },
+    },
+    viewport: {
+      northeast: {
+        type: [Number],
+      },
+      southwest: {
+        type: [Number],
+      },
     },
   })
-  location: {
-    type: string;
-    coordinates: number[];
+  geometry: {
+    location: {
+      type: string;
+      coordinates: number[];
+    };
+    viewport?: {
+      northeast: number[];
+      southwest: number[];
+    };
   };
+
+  @Prop({ type: [String] })
+  icon_uri?: string[];
+
+  @Prop({ type: String, required: true })
+  name: string;
+
+  @Prop({
+    type: {
+      open_now: {
+        type: Boolean,
+      },
+    },
+  })
+  opening_hours: {
+    open_now: boolean;
+  };
+
+  @Prop({ type: [String] })
+  photo?: string[];
+
+  @Prop({ type: String })
+  google_id?: string;
+
+  @Prop({ type: String })
+  scope?: string;
+
+  @Prop({ type: String })
+  address: string;
+
+  @Prop({ type: String })
+  description?: string;
 
   @Prop({ type: [String] })
   subtypes?: string[];
