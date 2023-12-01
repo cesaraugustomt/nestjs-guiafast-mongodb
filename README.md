@@ -2,6 +2,7 @@
 
 Adicione nodejs work na função de calculo de rota
 https://docs.nestjs.com/techniques/queues
+https://stackoverflow.com/questions/70230659/nestjs-run-worker-in-a-separate-process
 
 ## Description
 

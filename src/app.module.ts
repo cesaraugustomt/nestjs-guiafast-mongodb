@@ -5,6 +5,7 @@ import { MongooseModule } from '@nestjs/mongoose';
 
 import { PlaceModule } from './place/place.module';
 import { AccountModule } from './account/account.module';
+import { SeedModule } from './seed/seed.module';
 
 @Module({
   imports: [
@@ -15,6 +16,7 @@ import { AccountModule } from './account/account.module';
     MongooseModule.forRoot(process.env.DB_URI),
     AccountModule,
     PlaceModule,
+    SeedModule,
   ],
   controllers: [],
   providers: [],

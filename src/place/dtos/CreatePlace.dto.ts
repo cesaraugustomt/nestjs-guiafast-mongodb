@@ -1,4 +1,22 @@
-export class CreatePlaceDto {
+export type IType =
+  | 'Automotivo'
+  | 'De negócios'
+  | 'Cultura'
+  | 'Educação'
+  | 'Lazer e recreação'
+  | 'Alimentos e bebidas'
+  | 'Áreas geográficas'
+  | 'Governo'
+  | 'Saúde e bem-estar'
+  | 'Hospedagem'
+  | 'Lugares de adoração'
+  | 'Serviços'
+  | 'Compras'
+  | 'Esportes'
+  | 'Transporte'
+  | 'tipo b';
+
+export interface CreatePlaceDto {
   readonly business_status: string;
   readonly geometry: {
     readonly location: {
@@ -22,24 +40,6 @@ export class CreatePlaceDto {
   readonly address: string;
   readonly subtypes?: string[];
 }
-
-type IType =
-  | 'Automotivo'
-  | 'De negócios'
-  | 'Cultura'
-  | 'Educação'
-  | 'Lazer e recreação'
-  | 'Alimentos e bebidas'
-  | 'Áreas geográficas'
-  | 'Governo'
-  | 'Saúde e bem-estar'
-  | 'Hospedagem'
-  | 'Lugares de adoração'
-  | 'Serviços'
-  | 'Compras'
-  | 'Esportes'
-  | 'Transporte'
-  | 'tipo b';
 
 // id: string;
 // name: string;

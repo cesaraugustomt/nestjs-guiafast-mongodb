@@ -1,4 +1,4 @@
-export class UpdatePlaceDto {
+export interface UpdatePlaceDto {
   readonly business_status: string;
   readonly geometry: {
     readonly location: {
