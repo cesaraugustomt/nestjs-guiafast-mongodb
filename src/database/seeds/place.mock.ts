@@ -3,9 +3,10 @@ import { CreatePlaceDto } from '../../place/dtos/CreatePlace.dto';
 export const mockDataPlace: CreatePlaceDto[] = [
   {
     business_status: 'OPERATIONAL',
+    type: 'Educação',
     geometry: {
       location: {
-        type: 'Educação',
+        type: 'Point',
         coordinates: [-17.3172424, -53.21084219999999],
       },
       viewport: {
@@ -27,9 +28,10 @@ export const mockDataPlace: CreatePlaceDto[] = [
   },
   {
     business_status: 'OPERATIONAL',
+    type: 'Cultura',
     geometry: {
       location: {
-        type: 'Cultura',
+        type: 'Point',
         coordinates: [-17.3172424, -53.21084219999999],
       },
       viewport: {

@@ -3,6 +3,7 @@ export type IType =
   | 'De negócios'
   | 'Cultura'
   | 'Educação'
+  | 'Finanças'
   | 'Lazer e recreação'
   | 'Alimentos e bebidas'
   | 'Áreas geográficas'
@@ -16,11 +17,14 @@ export type IType =
   | 'Transporte'
   | 'tipo b';
 
+export type ITypeCoord = 'Point' | 'Polygon';
+
 export interface CreatePlaceDto {
   readonly business_status: string;
+  readonly type: IType;
   readonly geometry: {
     readonly location: {
-      type: IType;
+      type: ITypeCoord;
       coordinates: [number, number];
     };
     readonly viewport?: {

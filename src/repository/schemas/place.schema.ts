@@ -11,27 +11,38 @@ export class Place {
   business_status: string;
 
   @Prop({
+    type: String,
+    enum: {
+      values: [
+        'Automotivo',
+        'De negócios',
+        'Cultura',
+        'Educação',
+        'Finanças',
+        'Lazer e recreação',
+        'Alimentos e bebidas',
+        'Áreas geográficas',
+        'Governo',
+        'Saúde e bem-estar',
+        'Hospedagem',
+        'Lugares de adoração',
+        'Serviços',
+        'Compras',
+        'Esportes',
+        'Transporte',
+        'tipo b',
+      ],
+      message: '{VALUE} não é um tipo válido',
+    },
+  })
+  type: string;
+
+  @Prop({
     type: {
       type: String,
       enum: {
-        values: [
-          'Automotivo',
-          'De negócios',
-          'Cultura',
-          'Educação',
-          'Lazer e recreação',
-          'Alimentos e bebidas',
-          'Áreas geográficas',
-          'Governo',
-          'Saúde e bem-estar',
-          'Hospedagem',
-          'Lugares de adoração',
-          'Serviços',
-          'Compras',
-          'Esportes',
-          'Transporte',
-          'tipo b',
-        ],
+        values: ['Point'],
+        default: 'Point',
         message: '{VALUE} não é um tipo válido',
       },
     },
@@ -53,11 +64,11 @@ export class Place {
   geometry: {
     location: {
       type: string;
-      coordinates: number[];
+      coordinates: [number, number];
     };
     viewport?: {
-      northeast: number[];
-      southwest: number[];
+      northeast: [number, number];
+      southwest: [number, number];
     };
   };
 
@@ -87,7 +98,7 @@ export class Place {
   @Prop({ type: String })
   scope?: string;
 
-  @Prop({ type: String })
+  @Prop({ type: String, required: true })
   address: string;
 
   @Prop({ type: String })
@@ -98,3 +109,4 @@ export class Place {
 }
 
 export const PlaceSchema = SchemaFactory.createForClass(Place);
+PlaceSchema.index({ location: '2dsphere' });

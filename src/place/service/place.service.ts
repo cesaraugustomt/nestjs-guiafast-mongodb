@@ -1,7 +1,7 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import * as mongoose from 'mongoose';
-import { Place } from 'src/repository/schemas/place.schema';
+import { Place, PlaceDocument } from 'src/repository/schemas/place.schema';
 
 import { Query } from 'express-serve-static-core';
 
@@ -12,8 +12,6 @@ export class PlaceService {
   ) {}
 
   async findAll(query: Query): Promise<Place[]> {
-    console.log(query);
-
     const resPerPage = 4;
     const currentPage = Number(query.page) || 1;
     const skip = resPerPage * (currentPage - 1);
@@ -58,5 +56,39 @@ export class PlaceService {
 
   async deleteById(id: string): Promise<Place> {
     return await this.placeModel.findByIdAndDelete(id);
+  }
+
+  async getPlacesNearUser(
+    userCoordinates: [number, number],
+    maxDistanceInMeters: number,
+  ): Promise<PlaceDocument[]> {
+    const places = await this.placeModel.aggregate([
+      {
+        $geoNear: {
+          near: {
+            type: 'Point',
+            coordinates: userCoordinates,
+          },
+          distanceField: 'distance',
+          maxDistance: maxDistanceInMeters,
+          spherical: true,
+        },
+      },
+      {
+        $project: {
+          name: 1,
+          location: 1,
+          distance: 1,
+          // Outros campos que você deseja incluir na resposta
+        },
+      },
+      {
+        $sort: {
+          distance: 1,
+        },
+      },
+    ]);
+
+    return places;
   }
 }

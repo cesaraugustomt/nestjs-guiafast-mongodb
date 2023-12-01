@@ -1,8 +1,30 @@
+export type IType =
+  | 'Automotivo'
+  | 'De negócios'
+  | 'Cultura'
+  | 'Educação'
+  | 'Finanças'
+  | 'Lazer e recreação'
+  | 'Alimentos e bebidas'
+  | 'Áreas geográficas'
+  | 'Governo'
+  | 'Saúde e bem-estar'
+  | 'Hospedagem'
+  | 'Lugares de adoração'
+  | 'Serviços'
+  | 'Compras'
+  | 'Esportes'
+  | 'Transporte'
+  | 'tipo b';
+
+export type ITypeCoord = 'Point' | 'Polygon';
+
 export interface UpdatePlaceDto {
   readonly business_status: string;
+  readonly type: IType;
   readonly geometry: {
     readonly location: {
-      type: IType;
+      type: ITypeCoord;
       coordinates: [number, number];
     };
     readonly viewport?: {
@@ -22,21 +44,3 @@ export interface UpdatePlaceDto {
   readonly address: string;
   readonly subtypes?: string[];
 }
-
-type IType =
-  | 'Automotivo'
-  | 'De negócios'
-  | 'Cultura'
-  | 'Educação'
-  | 'Lazer e recreação'
-  | 'Alimentos e bebidas'
-  | 'Áreas geográficas'
-  | 'Governo'
-  | 'Saúde e bem-estar'
-  | 'Hospedagem'
-  | 'Lugares de adoração'
-  | 'Serviços'
-  | 'Compras'
-  | 'Esportes'
-  | 'Transporte'
-  | 'tipo b';
