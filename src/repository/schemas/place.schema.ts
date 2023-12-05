@@ -42,12 +42,15 @@ export class Place {
       type: String,
       enum: {
         values: ['Point'],
-        default: 'Point',
         message: '{VALUE} não é um tipo válido',
       },
     },
-
     location: {
+      type: {
+        type: String,
+        enum: ['Point'],
+        default: 'Point',
+      },
       coordinates: {
         type: [Number],
       },
@@ -106,7 +109,10 @@ export class Place {
 
   @Prop({ type: [String] })
   subtypes?: string[];
+
+  @Prop({ type: Number })
+  distance?: number;
 }
 
 export const PlaceSchema = SchemaFactory.createForClass(Place);
-PlaceSchema.index({ location: '2dsphere' });
+PlaceSchema.index({ 'geometry.location': '2dsphere' });

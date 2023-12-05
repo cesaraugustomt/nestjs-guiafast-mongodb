@@ -58,37 +58,41 @@ export class PlaceService {
     return await this.placeModel.findByIdAndDelete(id);
   }
 
-  async getPlacesNearUser(
-    userCoordinates: [number, number],
-    maxDistanceInMeters: number,
-  ): Promise<PlaceDocument[]> {
-    const places = await this.placeModel.aggregate([
-      {
-        $geoNear: {
-          near: {
-            type: 'Point',
-            coordinates: userCoordinates,
-          },
-          distanceField: 'distance',
-          maxDistance: maxDistanceInMeters,
-          spherical: true,
-        },
-      },
-      {
-        $project: {
-          name: 1,
-          location: 1,
-          distance: 1,
-          // Outros campos que você deseja incluir na resposta
-        },
-      },
-      {
-        $sort: {
-          distance: 1,
-        },
-      },
-    ]);
+  async findNearbyPlaces(
+    latitude: number,
+    longitude: number,
+    query: Query,
+  ): Promise<Place[]> {
+    const resPerPage = 4;
+    const currentPage = Number(query.page) || 1;
+    const skip = resPerPage * (currentPage - 1);
 
-    return places;
+    const keyword = query.keyword
+      ? {
+          subtypes: {
+            $regex: query.keyword,
+            $options: 'i',
+          },
+        }
+      : {};
+
+    const locais = await this.placeModel
+      .find({
+        ...keyword,
+        'geometry.location': {
+          $near: {
+            $geometry: {
+              type: 'Point',
+              coordinates: [latitude, longitude],
+            },
+            $maxDistance: 10000,
+          },
+        },
+      })
+      .limit(resPerPage)
+      .skip(skip)
+      .exec();
+
+    return locais;
   }
 }

@@ -8,7 +8,7 @@ export const mockDataPlaceTipoB: CreatePlaceDto[] = [
     geometry: {
       location: {
         type: 'Point',
-        coordinates: [-17.3149634, -53.2153771],
+        coordinates: [-53.2153771, -17.3149634],
       },
       viewport: {
         northeast: [-17.30935101849889, -53.21081322941892],
@@ -35,7 +35,7 @@ export const mockDataPlaceTipoB: CreatePlaceDto[] = [
     geometry: {
       location: {
         type: 'Point',
-        coordinates: [-17.3117429, -53.2219676],
+        coordinates: [-53.2219676, -17.3117429],
       },
       viewport: {
         northeast: [-17.30731614589721, -53.21755316103128],

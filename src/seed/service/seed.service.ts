@@ -6,9 +6,9 @@ import { Account } from 'src/repository/schemas/account.schema';
 import { Place } from 'src/repository/schemas/place.schema';
 
 import { mockDataAccount } from './../../database/seeds/account.mock';
-import { mockDataPlaceAlimentos } from './../../database/seeds/places';
 
-// import { mockDataPlace } from './../../database/seeds/place.mock';
+// import { mockDataPlaceTipoB } from './../../database/seeds/places/tipo_b/place.mock';
+import { mockDataPlaceAlimentos } from './../../database/seeds/places/alimentos_e_bebidas/place.mock';
 
 import { CreateAccountDto } from './../../account/dtos/Account.dto';
 import { CreatePlaceDto } from './../../place/dtos/CreatePlace.dto';
