@@ -1,8 +1,8 @@
 # criando modulo
 
-nest g module account
-nest g controller account
-nest g service account
+nest g module place-details
+nest g controller place-details
+nest g service place-details
 
 npx typeorm migration:create ./src/database/migrations/03_places/popular_migration/insert-in-type
 

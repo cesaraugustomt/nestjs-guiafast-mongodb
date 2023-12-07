@@ -6,6 +6,7 @@ import { MongooseModule } from '@nestjs/mongoose';
 import { PlaceModule } from './place/place.module';
 import { AccountModule } from './account/account.module';
 import { SeedModule } from './seed/seed.module';
+import { PlaceDetailsModule } from './place-details/place-details.module';
 
 @Module({
   imports: [
@@ -17,6 +18,7 @@ import { SeedModule } from './seed/seed.module';
     AccountModule,
     PlaceModule,
     SeedModule,
+    PlaceDetailsModule,
   ],
   controllers: [],
   providers: [],
