@@ -502,40 +502,6 @@ export const mockDataPlaceSaudeBemEstar: CreatePlaceDto[] = [
     geometry: {
       location: {
         type: 'Point',
-        coordinates: [-17.3157432, -53.2186308],
-      },
-      viewport: {
-        northeast: [-17.3142463197085, -53.2174459697085],
-        southwest: [-17.3169442802915, -53.2201439302915],
-      },
-    },
-    icon_uri: [
-      'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png',
-    ],
-    name: 'Ingra Cristianne Portela Rosan & Cia',
-    opening_hours: {
-      open_now: false,
-    },
-    photo: [],
-    google_id: 'ChIJ38I60EyFfJMRPRpB1osCkw8',
-    scope: 'GOOGLE',
-    description: '',
-    address: 'Avenida Walquir Vieira de Rezende 755 - Qda 48 Lot',
-    subtypes: [
-      'drogaria',
-      'farmácia',
-      'saúde',
-      'ponto_de_interesse',
-      'loja',
-      'estabelecimento',
-    ],
-  },
-  {
-    business_status: 'OPERATIONAL',
-    type: 'Saúde e bem-estar',
-    geometry: {
-      location: {
-        type: 'Point',
         coordinates: [-17.3158445, -53.21627650000001],
       },
       viewport: {
@@ -603,40 +569,6 @@ export const mockDataPlaceSaudeBemEstar: CreatePlaceDto[] = [
     geometry: {
       location: {
         type: 'Point',
-        coordinates: [-17.3150308, -53.2149984],
-      },
-      viewport: {
-        northeast: [-17.3137288197085, -53.2136959197085],
-        southwest: [-17.3164267802915, -53.2163938802915],
-      },
-    },
-    icon_uri: [
-      'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png',
-    ],
-    name: 'Farmácia Central',
-    opening_hours: {
-      open_now: true,
-    },
-    photo: [],
-    google_id: 'ChIJ5S8u7UqFfJMRT3-ysY1D-So',
-    scope: 'GOOGLE',
-    description: '',
-    address: 'Avenida Carlos Hugueney, 498 - Centro, Alto Araguaia',
-    subtypes: [
-      'drogaria',
-      'farmácia',
-      'saúde',
-      'ponto_de_interesse',
-      'loja',
-      'estabelecimento',
-    ],
-  },
-  {
-    business_status: 'OPERATIONAL',
-    type: 'Saúde e bem-estar',
-    geometry: {
-      location: {
-        type: 'Point',
         coordinates: [-17.3167278, -53.2140004],
       },
       viewport: {
@@ -658,41 +590,6 @@ export const mockDataPlaceSaudeBemEstar: CreatePlaceDto[] = [
     address: 'Avenida Carlos Hugueney, 209, Alto Araguaia',
     subtypes: [
       'drogaria',
-      'farmácia',
-      'saúde',
-      'ponto_de_interesse',
-      'loja',
-      'estabelecimento',
-    ],
-  },
-  {
-    business_status: 'OPERATIONAL',
-    type: 'Saúde e bem-estar',
-    geometry: {
-      location: {
-        type: 'Point',
-        coordinates: [-17.3132686, -53.21682399999999],
-      },
-      viewport: {
-        northeast: [-17.3119541197085, -53.21551101970849],
-        southwest: [-17.3146520802915, -53.21820898029149],
-      },
-    },
-    icon_uri: [
-      'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png',
-    ],
-    name: 'Drogarias Ultra Popular',
-    opening_hours: {
-      open_now: true,
-    },
-    photo: [],
-    google_id: 'ChIJW4YSqxubfJMRB9uDbnrflfw',
-    scope: 'GOOGLE',
-    description: '',
-    address: 'Avenida Carlos Hugueney, 790 - Centro, Alto Araguaia',
-    subtypes: [
-      'drogaria',
-      'loja_de_roupas',
       'farmácia',
       'saúde',
       'ponto_de_interesse',
@@ -800,40 +697,7 @@ export const mockDataPlaceSaudeBemEstar: CreatePlaceDto[] = [
       'estabelecimento',
     ],
   },
-  {
-    business_status: 'OPERATIONAL',
-    type: 'Saúde e bem-estar',
-    geometry: {
-      location: {
-        type: 'Point',
-        coordinates: [-17.3103223, -53.21847820000001],
-      },
-      viewport: {
-        northeast: [-17.3089645697085, -53.21712006970851],
-        southwest: [-17.3116625302915, -53.21981803029151],
-      },
-    },
-    icon_uri: [
-      'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png',
-    ],
-    name: 'Farmovida',
-    opening_hours: {
-      open_now: true,
-    },
-    photo: [],
-    google_id: 'ChIJy2H5nbOafJMR_aCAEVGWOEQ',
-    scope: 'GOOGLE',
-    description: '',
-    address: 'Rua Severino Botelho de Melo, 1597 - Centro, Alto Araguaia',
-    subtypes: [
-      'drogaria',
-      'farmácia',
-      'saúde',
-      'ponto_de_interesse',
-      'loja',
-      'estabelecimento',
-    ],
-  },
+
   {
     business_status: 'OPERATIONAL',
     type: 'Saúde e bem-estar',
@@ -859,40 +723,6 @@ export const mockDataPlaceSaudeBemEstar: CreatePlaceDto[] = [
     scope: 'GOOGLE',
     description: '',
     address: 'Rua Severino Botelho de Melo, 1197 - Centro, Alto Araguaia',
-    subtypes: [
-      'drogaria',
-      'farmácia',
-      'saúde',
-      'ponto_de_interesse',
-      'loja',
-      'estabelecimento',
-    ],
-  },
-  {
-    business_status: 'OPERATIONAL',
-    type: 'Saúde e bem-estar',
-    geometry: {
-      location: {
-        type: 'Point',
-        coordinates: [-17.3216693, -53.2268143],
-      },
-      viewport: {
-        northeast: [-17.3203529697085, -53.2255335697085],
-        southwest: [-17.3230509302915, -53.2282315302915],
-      },
-    },
-    icon_uri: [
-      'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png',
-    ],
-    name: 'Drogaria Farmanova',
-    opening_hours: {
-      open_now: true,
-    },
-    photo: [],
-    google_id: 'ChIJIQe5ojOFfJMR64vejDDQlqc',
-    scope: 'GOOGLE',
-    description: '',
-    address: 'Rua Maria da Glória Fávero, 373 - Aeroporto, Alto Araguaia',
     subtypes: [
       'drogaria',
       'farmácia',
@@ -937,40 +767,7 @@ export const mockDataPlaceSaudeBemEstar: CreatePlaceDto[] = [
       'estabelecimento',
     ],
   },
-  {
-    business_status: 'OPERATIONAL',
-    type: 'Saúde e bem-estar',
-    geometry: {
-      location: {
-        type: 'Point',
-        coordinates: [-17.3174688, -53.21105540000001],
-      },
-      viewport: {
-        northeast: [-17.3161504697085, -53.20974081970851],
-        southwest: [-17.3188484302915, -53.21243878029151],
-      },
-    },
-    icon_uri: [
-      'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png',
-    ],
-    name: 'Drogaria Alô Ltda',
-    opening_hours: {
-      open_now: true,
-    },
-    photo: [],
-    google_id: 'ChIJy2H5nbOafJMRzHljDrccIkQ',
-    scope: 'GOOGLE',
-    description: '',
-    address: 'Rua Severino Botelho de Melo, 1445, Alto Araguaia',
-    subtypes: [
-      'drogaria',
-      'farmácia',
-      'saúde',
-      'ponto_de_interesse',
-      'loja',
-      'estabelecimento',
-    ],
-  },
+
   {
     business_status: 'OPERATIONAL',
     type: 'Saúde e bem-estar',
@@ -1105,41 +902,6 @@ export const mockDataPlaceSaudeBemEstar: CreatePlaceDto[] = [
       'estabelecimento',
     ],
   },
-  {
-    business_status: 'OPERATIONAL',
-    type: 'Saúde e bem-estar',
-    geometry: {
-      location: {
-        type: 'Point',
-        coordinates: [-17.3273564, -53.20171509999999],
-      },
-      viewport: {
-        northeast: [-17.32606631970849, -53.2003219197085],
-        southwest: [-17.3287642802915, -53.2030198802915],
-      },
-    },
-    icon_uri: [
-      'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png',
-    ],
-    name: 'Drogaria Avenida',
-    opening_hours: {
-      open_now: true,
-    },
-    photo: [],
-    google_id: 'ChIJ8ykIRgmQfJMRyq94loToGZQ',
-    scope: 'GOOGLE',
-    description: '',
-    address: 'Av. Walquir V Rezende, 755 - S Central, Santa Rita do Araguaia',
-    subtypes: [
-      'drogaria',
-      'farmácia',
-      'saúde',
-      'ponto_de_interesse',
-      'loja',
-      'estabelecimento',
-    ],
-  },
-  //hospital
 
   {
     business_status: 'OPERATIONAL',
@@ -1319,40 +1081,7 @@ export const mockDataPlaceSaudeBemEstar: CreatePlaceDto[] = [
       'estabelecimento',
     ],
   },
-  {
-    business_status: 'OPERATIONAL',
-    type: 'Saúde e bem-estar',
-    geometry: {
-      location: {
-        type: 'Point',
-        coordinates: [-17.315645, -53.215808],
-      },
-      viewport: {
-        northeast: [-17.3142296197085, -53.21453591970851],
-        southwest: [-17.3169275802915, -53.21723388029151],
-      },
-    },
-    icon_uri: [
-      'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png',
-    ],
-    name: 'Neder E Moura',
-    opening_hours: {
-      open_now: true,
-    },
-    photo: [],
-    google_id: 'ChIJx63CHbOafJMRus8E2i0Aht8',
-    scope: 'GOOGLE',
-    description: '',
-    address: 'Rua Jerônimo Samita Maia, 353, Alto Araguaia',
-    subtypes: [
-      'drogaria',
-      'farmácia',
-      'saúde',
-      'loja',
-      'ponto_de_interesse',
-      'estabelecimento',
-    ],
-  },
+
   {
     business_status: 'OPERATIONAL',
     type: 'Saúde e bem-estar',
@@ -1413,40 +1142,6 @@ export const mockDataPlaceSaudeBemEstar: CreatePlaceDto[] = [
     description: '',
     address: 'Avenida Carlos Hugueney, nº 734 - Centro, Alto Araguaia',
     subtypes: [
-      'farmácia',
-      'saúde',
-      'loja',
-      'ponto_de_interesse',
-      'estabelecimento',
-    ],
-  },
-  {
-    business_status: 'OPERATIONAL',
-    type: 'Saúde e bem-estar',
-    geometry: {
-      location: {
-        type: 'Point',
-        coordinates: [-17.3167278, -53.2140004],
-      },
-      viewport: {
-        northeast: [-17.3153080197085, -53.2125776697085],
-        southwest: [-17.3180059802915, -53.2152756302915],
-      },
-    },
-    icon_uri: [
-      'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png',
-    ],
-    name: 'Drogaria Ação',
-    opening_hours: {
-      open_now: true,
-    },
-    photo: [],
-    google_id: 'ChIJi0C_CbOafJMRmFuewtcLln4',
-    scope: 'GOOGLE',
-    description: '',
-    address: 'Avenida Carlos Hugueney, 209, Alto Araguaia',
-    subtypes: [
-      'drogaria',
       'farmácia',
       'saúde',
       'loja',
@@ -1522,40 +1217,7 @@ export const mockDataPlaceSaudeBemEstar: CreatePlaceDto[] = [
       'estabelecimento',
     ],
   },
-  {
-    business_status: 'OPERATIONAL',
-    type: 'Saúde e bem-estar',
-    geometry: {
-      location: {
-        type: 'Point',
-        coordinates: [-17.3180398, -53.2126803],
-      },
-      viewport: {
-        northeast: [-17.3166228697085, -53.2112545197085],
-        southwest: [-17.3193208302915, -53.21395248029149],
-      },
-    },
-    icon_uri: [
-      'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png',
-    ],
-    name: 'Drogaria Avenida',
-    opening_hours: {
-      open_now: true,
-    },
-    photo: [],
-    google_id: 'ChIJo24LFLKafJMRz5JeuiVSXdE',
-    scope: 'GOOGLE',
-    description: '',
-    address: 'Avenida Carlos Hugueney, 849, Alto Araguaia',
-    subtypes: [
-      'drogaria',
-      'farmácia',
-      'saúde',
-      'loja',
-      'ponto_de_interesse',
-      'estabelecimento',
-    ],
-  },
+
   {
     business_status: 'OPERATIONAL',
     type: 'Saúde e bem-estar',
@@ -1624,40 +1286,7 @@ export const mockDataPlaceSaudeBemEstar: CreatePlaceDto[] = [
       'estabelecimento',
     ],
   },
-  {
-    business_status: 'OPERATIONAL',
-    type: 'Saúde e bem-estar',
-    geometry: {
-      location: {
-        type: 'Point',
-        coordinates: [-17.3172201, -53.2112123],
-      },
-      viewport: {
-        northeast: [-17.3159223697085, -53.20992081970851],
-        southwest: [-17.3186203302915, -53.21261878029151],
-      },
-    },
-    icon_uri: [
-      'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png',
-    ],
-    name: 'L M de Carvalho',
-    opening_hours: {
-      open_now: false,
-    },
-    photo: [],
-    google_id: 'ChIJ-cwaIK6afJMRSj1w5R28ruE',
-    scope: 'GOOGLE',
-    description: '',
-    address: 'Rua Severino Botelho de Melo, 1197 - Centro, Alto Araguaia',
-    subtypes: [
-      'drogaria',
-      'farmácia',
-      'saúde',
-      'loja',
-      'ponto_de_interesse',
-      'estabelecimento',
-    ],
-  },
+
   {
     business_status: 'OPERATIONAL',
     type: 'Saúde e bem-estar',
@@ -1692,41 +1321,7 @@ export const mockDataPlaceSaudeBemEstar: CreatePlaceDto[] = [
       'estabelecimento',
     ],
   },
-  {
-    business_status: 'OPERATIONAL',
-    type: 'Saúde e bem-estar',
-    geometry: {
-      location: {
-        type: 'Point',
-        coordinates: [-17.3223958, -53.2263969],
-      },
-      viewport: {
-        northeast: [-17.3210861697085, -53.2251284197085],
-        southwest: [-17.3237841302915, -53.2278263802915],
-      },
-    },
-    icon_uri: [
-      'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png',
-    ],
-    name: 'Drogaria Farmáxima',
-    opening_hours: {
-      open_now: true,
-    },
-    photo: [],
-    google_id: 'ChIJdSOKW66FfJMRi8TszRf2UMw',
-    scope: 'GOOGLE',
-    description: '',
-    address:
-      'Rua Ver.Maria, Rua Maria da Glória Fávero, 467 - Aeroporto, Alto Araguaia',
-    subtypes: [
-      'drogaria',
-      'farmácia',
-      'saúde',
-      'loja',
-      'ponto_de_interesse',
-      'estabelecimento',
-    ],
-  },
+
   {
     business_status: 'OPERATIONAL',
     type: 'Saúde e bem-estar',
@@ -1794,41 +1389,7 @@ export const mockDataPlaceSaudeBemEstar: CreatePlaceDto[] = [
       'estabelecimento',
     ],
   },
-  {
-    business_status: 'OPERATIONAL',
-    type: 'Saúde e bem-estar',
-    geometry: {
-      location: {
-        type: 'Point',
-        coordinates: [-17.3252259, -53.20718710000001],
-      },
-      viewport: {
-        northeast: [-17.3238481697085, -53.20579596970851],
-        southwest: [-17.3265461302915, -53.20849393029151],
-      },
-    },
-    icon_uri: [
-      'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png',
-    ],
-    name: 'Drogaria Matheus',
-    opening_hours: {
-      open_now: true,
-    },
-    photo: [],
-    google_id: 'ChIJgfR14KeafJMRRS47UVm1BNw',
-    scope: 'GOOGLE',
-    description: '',
-    address:
-      'Avenida Walquir Vieira de Rezende, 854 - Sala 1 - Centro, Santa Rita do Araguaia',
-    subtypes: [
-      'drogaria',
-      'farmácia',
-      'saúde',
-      'loja',
-      'ponto_de_interesse',
-      'estabelecimento',
-    ],
-  },
+
   {
     business_status: 'OPERATIONAL',
     type: 'Saúde e bem-estar',

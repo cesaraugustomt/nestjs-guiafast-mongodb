@@ -682,39 +682,6 @@ export const mockDataPlaceServicos: CreatePlaceDto[] = [
     geometry: {
       location: {
         type: 'Point',
-        coordinates: [-17.3200267, -53.2225657],
-      },
-      viewport: {
-        northeast: [-17.3187242197085, -53.2211685697085],
-        southwest: [-17.3214221802915, -53.2238665302915],
-      },
-    },
-    icon_uri: [
-      'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png',
-    ],
-    name: 'trajanos barbearia Chaveiro e afiações e tecnologia',
-    opening_hours: {
-      open_now: true,
-    },
-    photo: [],
-    google_id: 'ChIJTZg91UyFfJMReiOXJpXt5iE',
-    scope: 'GOOGLE',
-    description: '',
-    address: 'Rua Doutor José Morbeck, 1194 - Aeroporto, Alto Araguaia',
-    subtypes: [
-      'chaveiro',
-      'cabelereiro',
-      'ponto_de_interesse',
-      'health',
-      'estabelecimento',
-    ],
-  },
-  {
-    business_status: 'OPERATIONAL',
-    type: 'Serviços',
-    geometry: {
-      location: {
-        type: 'Point',
         coordinates: [-17.3181474, -53.218843],
       },
       viewport: {
@@ -1019,39 +986,6 @@ export const mockDataPlaceServicos: CreatePlaceDto[] = [
     description: '',
     address: 'Rua A1, º 120 - Setor Nossa Senhora Aparecida, Alto Araguaia',
     subtypes: ['cabelereiro', 'ponto_de_interesse', 'estabelecimento'],
-  },
-  {
-    business_status: 'OPERATIONAL',
-    type: 'Serviços',
-    geometry: {
-      location: {
-        type: 'Point',
-        coordinates: [-17.3194501, -53.20606369999999],
-      },
-      viewport: {
-        northeast: [-17.3180799197085, -53.20468691970849],
-        southwest: [-17.32077788029151, -53.20738488029149],
-      },
-    },
-    icon_uri: [
-      'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png',
-    ],
-    name: 'Zanja Pires Depil',
-    opening_hours: {
-      open_now: true,
-    },
-    photo: [],
-    google_id: 'ChIJYR2kE6ebfJMRtPIjhDHgP4U',
-    scope: 'GOOGLE',
-    description: '',
-    address:
-      'Quadra 97 lote15, Avenida Getúlio Vargas - Quinca Barros, Santa Rita do Araguaia',
-    subtypes: [
-      'cabelereiro',
-      'beauty_salon',
-      'ponto_de_interesse',
-      'estabelecimento',
-    ],
   },
   {
     business_status: 'OPERATIONAL',

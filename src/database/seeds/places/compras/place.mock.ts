@@ -808,40 +808,7 @@ export const mockDataPlaceAreasCompras: CreatePlaceDto[] = [
       'estabelecimento',
     ],
   },
-  {
-    business_status: 'OPERATIONAL',
-    type: 'Compras',
-    geometry: {
-      location: {
-        type: 'Point',
-        coordinates: [-17.3141803, -53.21691130000001],
-      },
-      viewport: {
-        northeast: [-17.3126899197085, -53.21540501970851],
-        southwest: [-17.3153878802915, -53.2181029802915],
-      },
-    },
-    icon_uri: [
-      'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png',
-    ],
-    name: 'Gazin',
-    opening_hours: {
-      open_now: true,
-    },
-    photo: [],
-    google_id: 'ChIJ9a2aCLOafJMRy205Xd9_7bA',
-    scope: 'GOOGLE',
-    description: '',
-    address: 'Avenida Carlos Hugueney, 715 - Centro, Alto Araguaia',
-    subtypes: [
-      'loja_de_móveis',
-      'loja_de_eletrônicos',
-      'loja_de_artigos_para_casa',
-      'loja',
-      'ponto_de_interesse',
-      'estabelecimento',
-    ],
-  },
+
   {
     business_status: 'OPERATIONAL',
     type: 'Compras',
@@ -1116,39 +1083,6 @@ export const mockDataPlaceAreasCompras: CreatePlaceDto[] = [
     geometry: {
       location: {
         type: 'Point',
-        coordinates: [-17.3122525, -53.21736889999999],
-      },
-      viewport: {
-        northeast: [-17.3109325697085, -53.21598751970849],
-        southwest: [-17.3136305302915, -53.21868548029149],
-      },
-    },
-    icon_uri: [
-      'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png',
-    ],
-    name: 'Pina Móveis',
-    opening_hours: {
-      open_now: true,
-    },
-    photo: [],
-    google_id: 'ChIJC8ls_62afJMR0fRVoou9LK0',
-    scope: 'GOOGLE',
-    description: '',
-    address: 'Rua João Segundo, 816 - Centro, Alto Araguaia',
-    subtypes: [
-      'loja_de_móveis',
-      'loja_de_artigos_para_casa',
-      'loja',
-      'ponto_de_interesse',
-      'estabelecimento',
-    ],
-  },
-  {
-    business_status: 'OPERATIONAL',
-    type: 'Compras',
-    geometry: {
-      location: {
-        type: 'Point',
         coordinates: [-17.3150453, -53.2173728],
       },
       viewport: {
@@ -1168,73 +1102,6 @@ export const mockDataPlaceAreasCompras: CreatePlaceDto[] = [
     scope: 'GOOGLE',
     description: '',
     address: 'Rua Doutor José Morbeck, 454 - Centro, Alto Araguaia',
-    subtypes: [
-      'loja_de_móveis',
-      'loja_de_artigos_para_casa',
-      'loja',
-      'ponto_de_interesse',
-      'estabelecimento',
-    ],
-  },
-  {
-    business_status: 'OPERATIONAL',
-    type: 'Compras',
-    geometry: {
-      location: {
-        type: 'Point',
-        coordinates: [-17.3141803, -53.21691130000001],
-      },
-      viewport: {
-        northeast: [-17.3126899197085, -53.21540501970851],
-        southwest: [-17.3153878802915, -53.2181029802915],
-      },
-    },
-    icon_uri: [
-      'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png',
-    ],
-    name: 'Gazin',
-    opening_hours: {
-      open_now: true,
-    },
-    photo: [],
-    google_id: 'ChIJ9a2aCLOafJMRy205Xd9_7bA',
-    scope: 'GOOGLE',
-    description: '',
-    address: 'Avenida Carlos Hugueney, 715 - Centro, Alto Araguaia',
-    subtypes: [
-      'loja_de_eletrônicos',
-      'loja_de_móveis',
-      'loja_de_artigos_para_casa',
-      'loja',
-      'ponto_de_interesse',
-      'estabelecimento',
-    ],
-  },
-  {
-    business_status: 'OPERATIONAL',
-    type: 'Compras',
-    geometry: {
-      location: {
-        type: 'Point',
-        coordinates: [-17.3142277, -53.2163756],
-      },
-      viewport: {
-        northeast: [-17.3128538197085, -53.2149989197085],
-        southwest: [-17.3155517802915, -53.2176968802915],
-      },
-    },
-    icon_uri: [
-      'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png',
-    ],
-    name: 'Gilson D Pires',
-    opening_hours: {
-      open_now: true,
-    },
-    photo: [],
-    google_id: 'ChIJAXSJoLSafJMRkF7NB5kKMYc',
-    scope: 'GOOGLE',
-    description: '',
-    address: 'Avenida Carlos Hugueney, Alto Araguaia',
     subtypes: [
       'loja_de_móveis',
       'loja_de_artigos_para_casa',
@@ -1276,39 +1143,7 @@ export const mockDataPlaceAreasCompras: CreatePlaceDto[] = [
       'estabelecimento',
     ],
   },
-  {
-    business_status: 'OPERATIONAL',
-    type: 'Compras',
-    geometry: {
-      location: {
-        type: 'Point',
-        coordinates: [-17.3147965, -53.2149006],
-      },
-      viewport: {
-        northeast: [-17.3133705197085, -53.2136284697085],
-        southwest: [-17.31606848029151, -53.2163264302915],
-      },
-    },
-    icon_uri: [
-      'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png',
-    ],
-    name: 'Decor e Moveis Planejados',
-    opening_hours: {
-      open_now: true,
-    },
-    photo: [],
-    google_id: 'ChIJUxrPZ2WbfJMRii_MAzFdVqU',
-    scope: 'GOOGLE',
-    description: '',
-    address: 'Rua Jerônimo Samita Maia - Alto Araguaia',
-    subtypes: [
-      'loja_de_móveis',
-      'loja_de_artigos_para_casa',
-      'loja',
-      'ponto_de_interesse',
-      'estabelecimento',
-    ],
-  },
+
   {
     business_status: 'OPERATIONAL',
     type: 'Compras',
@@ -1342,40 +1177,7 @@ export const mockDataPlaceAreasCompras: CreatePlaceDto[] = [
       'estabelecimento',
     ],
   },
-  {
-    business_status: 'OPERATIONAL',
-    type: 'Compras',
-    geometry: {
-      location: {
-        type: 'Point',
-        coordinates: [-17.3118708, -53.21666099999999],
-      },
-      viewport: {
-        northeast: [-17.3104711697085, -53.21536476970849],
-        southwest: [-17.3131691302915, -53.21806273029149],
-      },
-    },
-    icon_uri: [
-      'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png',
-    ],
-    name: 'Pregão Araujo',
-    opening_hours: {
-      open_now: true,
-    },
-    photo: [],
-    google_id: 'ChIJE03W97SbfJMRnsuP_NS2wIY',
-    scope: 'GOOGLE',
-    description: '',
-    address:
-      'esquina com - Rua Severino Botelho de Melo, Rua João Segundo, Alto Araguaia',
-    subtypes: [
-      'loja_de_móveis',
-      'loja_de_artigos_para_casa',
-      'loja',
-      'ponto_de_interesse',
-      'estabelecimento',
-    ],
-  },
+
   {
     business_status: 'OPERATIONAL',
     type: 'Compras',
@@ -1410,40 +1212,7 @@ export const mockDataPlaceAreasCompras: CreatePlaceDto[] = [
       'estabelecimento',
     ],
   },
-  {
-    business_status: 'OPERATIONAL',
-    type: 'Compras',
-    geometry: {
-      location: {
-        type: 'Point',
-        coordinates: [-17.3231288, -53.2263665],
-      },
-      viewport: {
-        northeast: [-17.3217445697085, -53.2249504697085],
-        southwest: [-17.3244425302915, -53.2276484302915],
-      },
-    },
-    icon_uri: [
-      'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png',
-    ],
-    name: 'REQUINTE MÓVEIS',
-    opening_hours: {
-      open_now: true,
-    },
-    photo: [],
-    google_id: 'ChIJBVO3K5WFfJMRMlhYBfTbJwM',
-    scope: 'GOOGLE',
-    description: '',
-    address:
-      'Rua Vereadora Maria, Rua Maria da Glória Fávero - Aeroporto, Alto Araguaia',
-    subtypes: [
-      'loja_de_móveis',
-      'loja_de_artigos_para_casa',
-      'loja',
-      'ponto_de_interesse',
-      'estabelecimento',
-    ],
-  },
+
   {
     business_status: 'OPERATIONAL',
     type: 'Compras',
@@ -1477,39 +1246,7 @@ export const mockDataPlaceAreasCompras: CreatePlaceDto[] = [
       'estabelecimento',
     ],
   },
-  {
-    business_status: 'OPERATIONAL',
-    type: 'Compras',
-    geometry: {
-      location: {
-        type: 'Point',
-        coordinates: [-17.3268259, -53.2296016],
-      },
-      viewport: {
-        northeast: [-17.3255400697085, -53.2282403197085],
-        southwest: [-17.3282380302915, -53.2309382802915],
-      },
-    },
-    icon_uri: [
-      'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png',
-    ],
-    name: 'HGK MOVEIS SEMI NOVOS E USADOS',
-    opening_hours: {
-      open_now: true,
-    },
-    photo: [],
-    google_id: 'ChIJtYq6Yc2FfJMRxh1amua6FGw',
-    scope: 'GOOGLE',
-    description: '',
-    address: 'Rua Benedito José da Costa - Aeroporto, Alto Araguaia',
-    subtypes: [
-      'loja_de_móveis',
-      'loja_de_artigos_para_casa',
-      'loja',
-      'ponto_de_interesse',
-      'estabelecimento',
-    ],
-  },
+
   //loja de ferragens
 
   {
@@ -1581,39 +1318,7 @@ export const mockDataPlaceAreasCompras: CreatePlaceDto[] = [
       'estabelecimento',
     ],
   },
-  {
-    business_status: 'OPERATIONAL',
-    type: 'Compras',
-    geometry: {
-      location: {
-        type: 'Point',
-        coordinates: [-17.3150453, -53.2173728],
-      },
-      viewport: {
-        northeast: [-17.3137991697085, -53.2159187697085],
-        southwest: [-17.3164971302915, -53.2186167302915],
-      },
-    },
-    icon_uri: [
-      'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png',
-    ],
-    name: 'Peruchi Eletro',
-    opening_hours: {
-      open_now: true,
-    },
-    photo: [],
-    google_id: 'ChIJy2H5nbOafJMRUHUJqBCzz3s',
-    scope: 'GOOGLE',
-    description: '',
-    address: 'Rua Doutor José Morbeck, 454 - Centro, Alto Araguaia',
-    subtypes: [
-      'loja_de_móveis',
-      'loja_de_artigos_para_casa',
-      'loja',
-      'ponto_de_interesse',
-      'estabelecimento',
-    ],
-  },
+
   {
     business_status: 'OPERATIONAL',
     type: 'Compras',
@@ -1713,39 +1418,7 @@ export const mockDataPlaceAreasCompras: CreatePlaceDto[] = [
       'estabelecimento',
     ],
   },
-  {
-    business_status: 'OPERATIONAL',
-    type: 'Compras',
-    geometry: {
-      location: {
-        type: 'Point',
-        coordinates: [-17.3149634, -53.2153771],
-      },
-      viewport: {
-        northeast: [-17.3136170197085, -53.21402616970851],
-        southwest: [-17.3163149802915, -53.21672413029151],
-      },
-    },
-    icon_uri: [
-      'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png',
-    ],
-    name: 'Casa do Jão',
-    opening_hours: {
-      open_now: true,
-    },
-    photo: [],
-    google_id: 'ChIJFd8t0Q6bfJMRSzyuwTwXkuM',
-    scope: 'GOOGLE',
-    description: '',
-    address: 'rua silvino jose de castro mais, 640 - Centro, Alto Araguaia',
-    subtypes: [
-      'loja_de_móveis',
-      'loja_de_artigos_para_casa',
-      'loja',
-      'ponto_de_interesse',
-      'estabelecimento',
-    ],
-  },
+
   {
     business_status: 'OPERATIONAL',
     type: 'Compras',
@@ -1844,39 +1517,7 @@ export const mockDataPlaceAreasCompras: CreatePlaceDto[] = [
       'estabelecimento',
     ],
   },
-  {
-    business_status: 'OPERATIONAL',
-    type: 'Compras',
-    geometry: {
-      location: {
-        type: 'Point',
-        coordinates: [-17.3123253, -53.217521],
-      },
-      viewport: {
-        northeast: [-17.3110245197085, -53.2161182197085],
-        southwest: [-17.31372248029151, -53.2188161802915],
-      },
-    },
-    icon_uri: [
-      'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png',
-    ],
-    name: 'Daniel Estofados',
-    opening_hours: {
-      open_now: true,
-    },
-    photo: [],
-    google_id: 'ChIJS7SsMwaFfJMREuTazUZdUo4',
-    scope: 'GOOGLE',
-    description: '',
-    address: 'Rua João Segundo, 582 - Centro, Alto Araguaia',
-    subtypes: [
-      'loja_de_móveis',
-      'loja_de_artigos_para_casa',
-      'loja',
-      'ponto_de_interesse',
-      'estabelecimento',
-    ],
-  },
+
   {
     business_status: 'OPERATIONAL',
     type: 'Compras',
@@ -1950,40 +1591,6 @@ export const mockDataPlaceAreasCompras: CreatePlaceDto[] = [
     geometry: {
       location: {
         type: 'Point',
-        coordinates: [-17.3232894, -53.2259223],
-      },
-      viewport: {
-        northeast: [-17.3219760697085, -53.22464111970851],
-        southwest: [-17.3246740302915, -53.2273390802915],
-      },
-    },
-    icon_uri: [
-      'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png',
-    ],
-    name: 'CONCEITUS MOVEIS PLANEJADOS',
-    opening_hours: {
-      open_now: true,
-    },
-    photo: [],
-    google_id: 'ChIJiXcWLuGFfJMRsfIMrJavV60',
-    scope: 'GOOGLE',
-    description: '',
-    address:
-      'AV. VEREADORA MARIA, Rua Maria da Glória Fávero, 585 - Aeroporto, Alto Araguaia',
-    subtypes: [
-      'loja_de_móveis',
-      'loja_de_artigos_para_casa',
-      'loja',
-      'ponto_de_interesse',
-      'estabelecimento',
-    ],
-  },
-  {
-    business_status: 'OPERATIONAL',
-    type: 'Compras',
-    geometry: {
-      location: {
-        type: 'Point',
         coordinates: [-17.3231288, -53.2263665],
       },
       viewport: {
@@ -2004,39 +1611,6 @@ export const mockDataPlaceAreasCompras: CreatePlaceDto[] = [
     description: '',
     address:
       'Rua Vereadora Maria, Rua Maria da Glória Fávero - Aeroporto, Alto Araguaia',
-    subtypes: [
-      'loja_de_móveis',
-      'loja_de_artigos_para_casa',
-      'loja',
-      'ponto_de_interesse',
-      'estabelecimento',
-    ],
-  },
-  {
-    business_status: 'OPERATIONAL',
-    type: 'Compras',
-    geometry: {
-      location: {
-        type: 'Point',
-        coordinates: [-17.320863, -53.21000329999999],
-      },
-      viewport: {
-        northeast: [-17.3195486197085, -53.2087070697085],
-        southwest: [-17.3222465802915, -53.21140503029149],
-      },
-    },
-    icon_uri: [
-      'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png',
-    ],
-    name: 'REI DAS PANELAS',
-    opening_hours: {
-      open_now: false,
-    },
-    photo: [],
-    google_id: 'ChIJOVOV366afJMRtByKreECeu4',
-    scope: 'GOOGLE',
-    description: '',
-    address: 'Brazil',
     subtypes: [
       'loja_de_móveis',
       'loja_de_artigos_para_casa',
@@ -2144,41 +1718,7 @@ export const mockDataPlaceAreasCompras: CreatePlaceDto[] = [
       'estabelecimento',
     ],
   },
-  {
-    business_status: 'OPERATIONAL',
-    type: 'Compras',
-    geometry: {
-      location: {
-        type: 'Point',
-        coordinates: [-17.3225956, -53.19991599999999],
-      },
-      viewport: {
-        northeast: [-17.3212690197085, -53.1985379697085],
-        southwest: [-17.3239669802915, -53.2012359302915],
-      },
-    },
-    icon_uri: [
-      'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png',
-    ],
-    name: 'Multi Zack',
-    opening_hours: {
-      open_now: true,
-    },
-    photo: [],
-    google_id: 'ChIJQUAePpWbfJMRduTP4n9i6CA',
-    scope: 'GOOGLE',
-    description: '',
-    address:
-      'Bela vista - Rua 5, Quadra 23 - lote 31 - Bela vista, Santa Rita do Araguaia',
-    subtypes: [
-      'loja_de_eletrônicos',
-      'loja_de_artigos_para_casa',
-      'loja_de_roupa',
-      'loja',
-      'ponto_de_interesse',
-      'estabelecimento',
-    ],
-  },
+
   //loja de joias
 
   {
@@ -2269,41 +1809,6 @@ export const mockDataPlaceAreasCompras: CreatePlaceDto[] = [
     address: 'Rua 24 de Fevereiro - Boiadeiro, Alto Araguaia',
     subtypes: [
       'loja_de_bebidas',
-      'comida',
-      'ponto_de_interesse',
-      'loja',
-      'estabelecimento',
-    ],
-  },
-  {
-    business_status: 'OPERATIONAL',
-    type: 'Compras',
-    geometry: {
-      location: {
-        type: 'Point',
-        coordinates: [-17.3215052, -53.2266857],
-      },
-      viewport: {
-        northeast: [-17.3202299697085, -53.22549076970849],
-        southwest: [-17.3229279302915, -53.22818873029149],
-      },
-    },
-    icon_uri: [
-      'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png',
-    ],
-    name: 'Bom Preco',
-    opening_hours: {
-      open_now: true,
-    },
-    photo: [],
-    google_id: 'ChIJ3QekFZOFfJMRhdhIo9ADrDI',
-    scope: 'GOOGLE',
-    description: '',
-    address: 'Rua Maria da Glória Fávero - Aeroporto, Alto Araguaia',
-    subtypes: [
-      'supermecado',
-      'loja_de_bebidas',
-      'mercearia_ou_supermecado',
       'comida',
       'ponto_de_interesse',
       'loja',

@@ -58,6 +58,8 @@ export class PlaceService {
     return await this.placeModel.findByIdAndDelete(id);
   }
 
+  //TODO: Adicionar $geoNear para mostrar distância até o local
+
   async findNearbyPlaces(
     latitude: number,
     longitude: number,
@@ -85,6 +87,7 @@ export class PlaceService {
               type: 'Point',
               coordinates: [latitude, longitude],
             },
+            //TODO: Transformar em enum ou em variável de ambiente
             $maxDistance: 10000,
           },
         },

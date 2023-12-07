@@ -529,38 +529,6 @@ export const mockDataPlaceAutomotivo: CreatePlaceDto[] = [
     geometry: {
       location: {
         type: 'Point',
-        coordinates: [-17.3170431, -53.21306429999999],
-      },
-      viewport: {
-        northeast: [-17.3157131697085, -53.21173656970851],
-        southwest: [-17.3184111302915, -53.2144345302915],
-      },
-    },
-    icon_uri: [
-      'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/posto_de_gasolina-71.png',
-    ],
-    name: 'Posto da Divisa',
-    opening_hours: {
-      open_now: false,
-    },
-    photo: [],
-    google_id: 'ChIJT2blGrKafJMRY_ka3uSvISY',
-    scope: 'GOOGLE',
-    description: '',
-    address: 'Avenida Carlos Hugueney, 152 - Centro, Alto Araguaia',
-    subtypes: [
-      'posto_de_gasolina',
-      'reparo_de_carro',
-      'ponto_de_interesse',
-      'estabelecimento',
-    ],
-  },
-  {
-    business_status: 'OPERATIONAL',
-    type: 'Automotivo',
-    geometry: {
-      location: {
-        type: 'Point',
         coordinates: [-17.3119563, -53.2187759],
       },
       viewport: {
