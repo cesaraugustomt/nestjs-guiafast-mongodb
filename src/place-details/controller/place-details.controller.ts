@@ -7,7 +7,6 @@ import {
   Param,
   Body,
 } from '@nestjs/common';
-import { Query as ExpressQuery } from 'express-serve-static-core';
 
 import { PlaceDetails } from 'src/repository/schemas/place-details.schema';
 import { PlaceDetailsService } from '../service/place-details.service';

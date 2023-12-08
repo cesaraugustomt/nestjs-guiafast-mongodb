@@ -57,7 +57,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [
         'segunda-feira: 09:00 – 21:30',
         'terça-feira: 09:00 – 21:30',
@@ -132,7 +131,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [],
     },
     icon: 'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png',
@@ -205,7 +203,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [],
     },
     icon: 'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png',
@@ -283,7 +280,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [
         'segunda-feira: Atendimento 24 horas',
         'terça-feira: Atendimento 24 horas',
@@ -364,7 +360,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [
         'segunda-feira: Fechado',
         'terça-feira: 05:00 – 23:00',
@@ -450,7 +445,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [
         'segunda-feira: 18:00 – 00:00',
         'terça-feira: 18:00 – 00:00',
@@ -536,7 +530,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [],
     },
     icon: 'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png',
@@ -615,7 +608,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [],
     },
     icon: 'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png',
@@ -693,7 +685,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [
         'segunda-feira: 05:00 – 20:30',
         'terça-feira: 05:00 – 20:30',
@@ -780,7 +771,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [
         'segunda-feira: 05:00 – 19:00',
         'terça-feira: 05:00 – 19:00',
@@ -862,7 +852,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [
         'segunda-feira: 06:30 – 20:00',
         'terça-feira: 06:30 – 20:00',
@@ -938,7 +927,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [
         'segunda-feira: Atendimento 24 horas',
         'terça-feira: Atendimento 24 horas',
@@ -1019,7 +1007,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [
         'segunda-feira: 08:00 – 22:00',
         'terça-feira: 08:00 – 22:00',
@@ -1100,7 +1087,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [
         'segunda-feira: 06:00 – 19:00',
         'terça-feira: 06:00 – 19:00',
@@ -1187,7 +1173,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [],
     },
     icon: 'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png',
@@ -1265,7 +1250,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [
         'segunda-feira: 19:00 – 23:30',
         'terça-feira: 19:00 – 23:30',
@@ -1352,7 +1336,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [
         'segunda-feira: 06:00 – 20:00',
         'terça-feira: 06:00 – 20:00',
@@ -1438,7 +1421,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [
         'segunda-feira: 06:00 – 22:00',
         'terça-feira: 06:00 – 22:00',
@@ -1531,7 +1513,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [
         'segunda-feira: 19:00 – 23:00',
         'terça-feira: 19:00 – 23:00',
@@ -1623,7 +1604,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [],
     },
     icon: 'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png',
@@ -1701,7 +1681,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [
         'segunda-feira: 13:00 – 21:30',
         'terça-feira: 13:00 – 21:30',
@@ -1782,7 +1761,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [
         'segunda-feira: 19:00 – 23:00',
         'terça-feira: 19:00 – 23:00',
@@ -1863,7 +1841,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [
         'segunda-feira: 07:30 – 19:30',
         'terça-feira: 07:30 – 19:30',
@@ -1939,7 +1916,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [
         'segunda-feira: 06:00 – 20:00',
         'terça-feira: 06:00 – 20:00',
@@ -2026,7 +2002,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [
         'segunda-feira: 08:00 – 19:00',
         'terça-feira: 08:00 – 19:00',
@@ -2112,7 +2087,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [
         'segunda-feira: 06:00 – 19:30',
         'terça-feira: 06:00 – 19:30',
@@ -2199,7 +2173,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [
         'segunda-feira: 14:30 – 21:30',
         'terça-feira: 14:30 – 21:30',
@@ -2293,7 +2266,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [
         'segunda-feira: 05:00 – 20:00',
         'terça-feira: 05:00 – 20:00',
@@ -2369,7 +2341,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [
         'segunda-feira: 09:00 – 19:15',
         'terça-feira: 09:00 – 19:15',
@@ -2445,7 +2416,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [
         'segunda-feira: 06:00 – 19:00',
         'terça-feira: 06:00 – 19:00',
@@ -2521,7 +2491,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [],
     },
     icon: 'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png',
@@ -2594,7 +2563,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [
         'segunda-feira: Atendimento 24 horas',
         'terça-feira: Atendimento 24 horas',
@@ -2680,7 +2648,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [],
     },
     icon: 'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png',
@@ -2764,7 +2731,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [
         'segunda-feira: Fechado',
         'terça-feira: 10:00 – 02:03',
@@ -2845,7 +2811,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [
         'segunda-feira: 05:01 – 23:30',
         'terça-feira: 05:01 – 23:30',
@@ -2926,7 +2891,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [
         'segunda-feira: Fechado',
         'terça-feira: 14:00 – 03:00',
@@ -3007,7 +2971,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [],
     },
     icon: 'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png',
@@ -3085,7 +3048,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [
         'segunda-feira: 08:00 – 18:00',
         'terça-feira: 08:00 – 18:00',
@@ -3161,7 +3123,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [
         'segunda-feira: 17:00 – 23:00',
         'terça-feira: Fechado',
@@ -3253,7 +3214,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [
         'segunda-feira: 09:00 – 23:00',
         'terça-feira: 09:00 – 23:00',
@@ -3335,7 +3295,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [],
     },
     icon: 'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png',
@@ -3413,7 +3372,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [
         'segunda-feira: 10:30 – 20:30',
         'terça-feira: 10:30 – 20:30',
@@ -3494,7 +3452,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [],
     },
     icon: 'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png',
@@ -3572,7 +3529,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [
         'segunda-feira: Fechado',
         'terça-feira: 18:00 – 00:00',
@@ -3653,7 +3609,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [],
     },
     icon: 'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png',
@@ -3731,7 +3686,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [
         'segunda-feira: 13:00 – 22:00',
         'terça-feira: 13:00 – 22:00',
@@ -3817,7 +3771,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [
         'segunda-feira: 06:00 – 18:00',
         'terça-feira: Fechado',
@@ -3900,7 +3853,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [],
     },
     icon: 'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png',
@@ -3978,7 +3930,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [
         'segunda-feira: 11:00 – 23:00',
         'terça-feira: 11:00 – 23:00',
@@ -4049,7 +4000,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [
         'segunda-feira: 18:00 – 23:00',
         'terça-feira: 18:00 – 23:00',
@@ -4136,7 +4086,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [
         'segunda-feira: 18:30 – 22:00',
         'terça-feira: 18:30 – 22:00',
@@ -4218,7 +4167,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [
         'segunda-feira: Fechado',
         'terça-feira: Fechado',
@@ -4304,7 +4252,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [
         'segunda-feira: 18:00 – 00:00',
         'terça-feira: 18:00 – 00:00',
@@ -4391,7 +4338,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [],
     },
     icon: 'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png',
@@ -4469,7 +4415,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [
         'segunda-feira: 13:30 – 22:00',
         'terça-feira: Fechado',
@@ -4556,7 +4501,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [
         'segunda-feira: 18:00 – 00:00',
         'terça-feira: 18:00 – 00:00',
@@ -4642,7 +4586,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [
         'segunda-feira: 07:30 – 18:00',
         'terça-feira: 07:30 – 18:00',
@@ -4723,7 +4666,6 @@ export const mockDataPlaceDetailsAlimentos = [
       },
     ],
     current_opening_hours: {
-      open_now: false,
       weekday_text: [],
     },
     icon: 'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png',

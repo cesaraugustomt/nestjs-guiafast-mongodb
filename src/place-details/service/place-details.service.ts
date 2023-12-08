@@ -44,4 +44,8 @@ export class PlaceDetailsService {
   async deleteById(id: string): Promise<PlaceDetails> {
     return await this.placeDetailsModel.findByIdAndDelete(id);
   }
+
+  async findDetailsByGoogleId(google_id: string): Promise<PlaceDetails | null> {
+    return this.placeDetailsModel.findOne({ google_id }).exec();
+  }
 }

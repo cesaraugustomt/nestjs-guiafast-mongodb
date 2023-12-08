@@ -4,11 +4,16 @@ import * as mongoose from 'mongoose';
 import { Place } from 'src/repository/schemas/place.schema';
 
 import { Query } from 'express-serve-static-core';
+import { PlaceDetailsService } from './../../place-details/service/place-details.service';
+
+import { PlaceDetails } from 'src/repository/schemas/place-details.schema';
+import { isOpenNow } from './../../utils/is-open-now.util';
 
 @Injectable()
 export class PlaceService {
   constructor(
     @InjectModel(Place.name) private placeModel: mongoose.Model<Place>,
+    private placeDetailsService: PlaceDetailsService,
   ) {}
 
   async findAll(query: Query): Promise<Place[]> {
@@ -64,8 +69,8 @@ export class PlaceService {
     latitude: number,
     longitude: number,
     query: Query,
-  ): Promise<Place[]> {
-    const resPerPage = 4;
+  ): Promise<{ places: Place[]; open_now: boolean }[]> {
+    const resPerPage = 10;
     const currentPage = Number(query.page) || 1;
     const skip = resPerPage * (currentPage - 1);
 
@@ -93,9 +98,29 @@ export class PlaceService {
         },
       })
       .limit(resPerPage)
-      .skip(skip)
-      .exec();
+      .skip(skip);
 
-    return locais;
+    const placesWithStatus = await Promise.all(
+      locais.map(async (place: Place) => {
+        const details = await this.placeDetailsService.findDetailsByGoogleId(
+          place.google_id,
+        );
+
+        const open_now = await isOpenNow(
+          details?.current_opening_hours?.weekday_text,
+          place,
+        );
+        // Atualize o documento diretamente no banco de dados
+        const updatedPlace = await this.placeModel.findOneAndUpdate(
+          { google_id: place.google_id }, // Supondo que _id seja o campo de identificação
+          { 'opening_hours.open_now': open_now },
+          { new: true, lean: true, virtuals: true },
+        );
+
+        return { places: [updatedPlace], open_now };
+      }),
+    );
+
+    return placesWithStatus;
   }
 }

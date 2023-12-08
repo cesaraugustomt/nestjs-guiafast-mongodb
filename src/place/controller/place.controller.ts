@@ -31,7 +31,7 @@ export class PlaceController {
     @Query('longitude') longitude: number,
     @Query('latitude') latitude: number,
     @Query() query: ExpressQuery,
-  ): Promise<Place[]> {
+  ): Promise<{ places: Place[]; open_now: boolean }[]> {
     return this.placeService.findNearbyPlaces(latitude, longitude, query);
   }
 

@@ -34,7 +34,7 @@ export class PlaceDetails {
     },
   })
   current_opening_hours?: {
-    open_now: boolean;
+    open_now?: boolean;
     weekday_text?: [string];
   };
 

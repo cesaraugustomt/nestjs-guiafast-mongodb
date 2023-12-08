@@ -88,8 +88,8 @@ export class Place {
       },
     },
   })
-  opening_hours: {
-    open_now: boolean;
+  opening_hours?: {
+    open_now?: boolean;
   };
 
   @Prop({ type: [String] })

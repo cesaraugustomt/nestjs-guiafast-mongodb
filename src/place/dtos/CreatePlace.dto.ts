@@ -32,7 +32,7 @@ export interface CreatePlaceDto {
   };
   readonly icon_uri?: string[];
   readonly name: string;
-  readonly opening_hours: {
+  readonly opening_hours?: {
     open_now: boolean;
   };
   readonly description?: string;

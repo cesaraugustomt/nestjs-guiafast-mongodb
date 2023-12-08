@@ -19,9 +19,6 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurante-71.png',
     ],
     name: 'Caseirinho Salgaderia & Confeitaria',
-    opening_hours: {
-      open_now: true,
-    },
     photo: [''],
     google_id: 'ChIJ119bdqqbfJMRRJASjQAQDLU',
     scope: 'GOOGLE',
@@ -52,9 +49,6 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurante-71.png',
     ],
     name: 'Quitandas da Dona Rita',
-    opening_hours: {
-      open_now: true,
-    },
     photo: [''],
     google_id: 'ChIJJwAKfq2bfJMR72cgL6zRxrI',
     scope: 'GOOGLE',
@@ -85,9 +79,6 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurante-71.png',
     ],
     name: 'Panificadora Jeová Hafah 1',
-    opening_hours: {
-      open_now: true,
-    },
     photo: [''],
     google_id: 'ChIJlzl7uCmbfJMR_3uVXd1Gg5U',
     scope: 'GOOGLE',
@@ -119,9 +110,6 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurante-71.png',
     ],
     name: 'Padaria Pão do Dia',
-    opening_hours: {
-      open_now: true,
-    },
     photo: [''],
     google_id: 'ChIJL6K4PliFfJMRADBckIo773g',
     scope: 'GOOGLE',
@@ -152,9 +140,7 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurante-71.png',
     ],
     name: 'Panificadora E Confeitaria Mister Pão',
-    opening_hours: {
-      open_now: false,
-    },
+
     photo: [''],
     google_id: 'ChIJ_flRr7SafJMRbdS4asDGxbw',
     scope: 'GOOGLE',
@@ -185,9 +171,6 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurante-71.png',
     ],
     name: 'Sof Tov Padaria e Pizzaria',
-    opening_hours: {
-      open_now: true,
-    },
     photo: [''],
     google_id: 'ChIJd6JAc2uFfJMRqw0GgPRUb_Q',
     scope: 'GOOGLE',
@@ -219,9 +202,7 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurante-71.png',
     ],
     name: 'Pão Caseiro & Bolos',
-    opening_hours: {
-      open_now: false,
-    },
+
     photo: [''],
     google_id: 'ChIJtb90-NzxXpMRgpUEfn4ibI4',
     scope: 'GOOGLE',
@@ -254,9 +235,6 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurante-71.png',
     ],
     name: 'Panificadora Jeová Hafah 2',
-    opening_hours: {
-      open_now: true,
-    },
     photo: [''],
     google_id: 'ChIJKUbzjMKFfJMR0qKJUrjCehY',
     scope: 'GOOGLE',
@@ -288,9 +266,6 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurante-71.png',
     ],
     name: 'Panificadora Pão Gostoso',
-    opening_hours: {
-      open_now: true,
-    },
     photo: [''],
     google_id: 'ChIJ29XvgcSRfJMRJiirOjYObnk',
     scope: 'GOOGLE',
@@ -322,9 +297,7 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurante-71.png',
     ],
     name: 'Panificadora Pão Gostoso',
-    opening_hours: {
-      open_now: false,
-    },
+
     photo: [''],
     google_id: 'ChIJyYQ4R6GafJMRMYt3blf3E24',
     scope: 'GOOGLE',
@@ -356,9 +329,6 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurante-71.png',
     ],
     name: 'Panificadora Modelo',
-    opening_hours: {
-      open_now: true,
-    },
     photo: [''],
     google_id: 'ChIJ8ykIRgmQfJMRzVblQUmX5gc',
     scope: 'GOOGLE',
@@ -390,9 +360,6 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurante-71.png',
     ],
     name: 'Bella Panificadora',
-    opening_hours: {
-      open_now: true,
-    },
     photo: [''],
     google_id: 'ChIJifbwXd-bfJMRzoz_i9C81_c',
     scope: 'GOOGLE',
@@ -424,9 +391,7 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png',
     ],
     name: 'Lounge do thiagao',
-    opening_hours: {
-      open_now: false,
-    },
+
     photo: [''],
     google_id: 'ChIJWW1YCPqFfJMRYvHtGVwkvMo',
     scope: 'GOOGLE',
@@ -452,9 +417,6 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png',
     ],
     name: 'Bar da Silvana',
-    opening_hours: {
-      open_now: true,
-    },
     photo: [''],
     google_id: 'ChIJ_aDduFKFfJMR5zs8grf3PiY',
     scope: 'GOOGLE',
@@ -479,9 +441,6 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png',
     ],
     name: 'LoungeIndiao13',
-    opening_hours: {
-      open_now: true,
-    },
     photo: [''],
     google_id: 'ChIJ1YRyGVGFfJMRmihXIjt0u3w',
     scope: 'GOOGLE',
@@ -506,9 +465,7 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png',
     ],
     name: 'VEGAS´S HOOKAH',
-    opening_hours: {
-      open_now: false,
-    },
+
     photo: [''],
     google_id: 'ChIJQ36ACq2bfJMRyPZlDoK4r0s',
     scope: 'GOOGLE',
@@ -533,9 +490,6 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png',
     ],
     name: 'Central Bebidas',
-    opening_hours: {
-      open_now: true,
-    },
     photo: [''],
     google_id: 'ChIJoRHs732bfJMRr5xz9puED7g',
     scope: 'GOOGLE',
@@ -560,9 +514,7 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png',
     ],
     name: 'Fumacê Club Lounge',
-    opening_hours: {
-      open_now: false,
-    },
+
     photo: [''],
     google_id: 'ChIJRzE7RLKafJMRjoFOBU6pj48',
     scope: 'GOOGLE',
@@ -587,9 +539,7 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurante-71.png',
     ],
     name: 'Bistrô Faroeste Caboclo',
-    opening_hours: {
-      open_now: false,
-    },
+
     photo: [''],
     google_id: 'ChIJs51gB7KafJMRr3dCjzWOMnw',
     scope: 'GOOGLE',
@@ -620,9 +570,6 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png',
     ],
     name: 'Bar Rezende',
-    opening_hours: {
-      open_now: true,
-    },
     photo: [''],
     google_id: 'ChIJy2H5nbOafJMRIwS6Y-N_rvM',
     scope: 'GOOGLE',
@@ -647,9 +594,7 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png',
     ],
     name: 'Point dos Amigos',
-    opening_hours: {
-      open_now: false,
-    },
+
     photo: [''],
     google_id: 'ChIJ7XRF9YCFfJMRddEnMOz-llM',
     scope: 'GOOGLE',
@@ -674,9 +619,6 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png',
     ],
     name: 'Boteco Peron',
-    opening_hours: {
-      open_now: true,
-    },
     photo: [''],
     google_id: 'ChIJVz8VgWCFfJMRmo19KiVsuMc',
     scope: 'GOOGLE',
@@ -701,9 +643,7 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png',
     ],
     name: 'Pizzaria e bar Tradição',
-    opening_hours: {
-      open_now: false,
-    },
+
     photo: [''],
     google_id: 'ChIJseRsBn-FfJMRQpUMXPyc_k8',
     scope: 'GOOGLE',
@@ -728,9 +668,6 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png',
     ],
     name: 'Bar Araújo (Bar Do Louro)',
-    opening_hours: {
-      open_now: true,
-    },
     photo: [''],
     google_id: 'ChIJb5DtFFCFfJMRA2PkwJFIVTg',
     scope: 'GOOGLE',
@@ -755,9 +692,6 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png',
     ],
     name: 'Bar E Lanchonete Araguainha',
-    opening_hours: {
-      open_now: true,
-    },
     photo: [''],
     google_id: 'ChIJB9mIk1qFfJMRwY2e9wT_DhA',
     scope: 'GOOGLE',
@@ -782,9 +716,7 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png',
     ],
     name: 'DGUST Pastelaria e Choperia',
-    opening_hours: {
-      open_now: false,
-    },
+
     photo: [''],
     google_id: 'ChIJSz821DiFfJMRZxElUoz-GeU',
     scope: 'GOOGLE',
@@ -809,9 +741,6 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png',
     ],
     name: 'Salão de Beleza Fabiana Dourado',
-    opening_hours: {
-      open_now: true,
-    },
     photo: [''],
     google_id: 'ChIJlyKrHlqFfJMRISBn-NhXbMY',
     scope: 'GOOGLE',
@@ -839,9 +768,6 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png',
     ],
     name: 'Cacau Show',
-    opening_hours: {
-      open_now: true,
-    },
     photo: [''],
     google_id: 'ChIJR9kozFQMygARZx8vQXvDelw',
     scope: 'GOOGLE',
@@ -872,9 +798,7 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png',
     ],
     name: 'Tereré & Afins...',
-    opening_hours: {
-      open_now: false,
-    },
+
     photo: [''],
     google_id: 'ChIJkyFXiLSafJMRx0YYHE1u6SI',
     scope: 'GOOGLE',
@@ -907,9 +831,6 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png',
     ],
     name: 'Bem Café',
-    opening_hours: {
-      open_now: true,
-    },
     photo: [''],
     google_id: 'ChIJhZBUr0-FfJMRGkz_A2-eze4',
     scope: 'GOOGLE',
@@ -940,9 +861,7 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png',
     ],
     name: 'Café Araguaia',
-    opening_hours: {
-      open_now: false,
-    },
+
     photo: [''],
     google_id: 'ChIJtSIWBNmbfJMRJoCfoUlJd5w',
     scope: 'GOOGLE',
@@ -967,9 +886,7 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png',
     ],
     name: 'Café com Bolo',
-    opening_hours: {
-      open_now: false,
-    },
+
     photo: [''],
     google_id: 'ChIJ0-fP7WKRfJMRSpMz_CfguRA',
     scope: 'GOOGLE',
@@ -994,9 +911,6 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png',
     ],
     name: 'Barraca da lu',
-    opening_hours: {
-      open_now: true,
-    },
     photo: [''],
     google_id: 'ChIJ5V4I2zaRfJMRhMktc9rDlhg',
     scope: 'GOOGLE',
@@ -1027,9 +941,6 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png',
     ],
     name: 'QUEIJOS BH.TENDA MINEIRA',
-    opening_hours: {
-      open_now: true,
-    },
     photo: [''],
     google_id: 'ChIJp3F7ci2FfJMRn1y0r88LvF8',
     scope: 'GOOGLE',
@@ -1063,9 +974,7 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurante-71.png',
     ],
     name: 'Pão Caseiro & Bolos',
-    opening_hours: {
-      open_now: false,
-    },
+
     photo: [''],
     google_id: 'ChIJtb90-NzxXpMRgpUEfn4ibI4',
     scope: 'GOOGLE',
@@ -1098,9 +1007,7 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png',
     ],
     name: 'House Burguer',
-    opening_hours: {
-      open_now: false,
-    },
+
     photo: [''],
     google_id: 'ChIJGyjtJGCbfJMRA1nL2EJ1H_g',
     scope: 'GOOGLE',
@@ -1134,9 +1041,6 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurante-71.png',
     ],
     name: 'Padaria & Lanchonete Ki Sabor',
-    opening_hours: {
-      open_now: true,
-    },
     photo: [''],
     google_id: 'ChIJbQ8zhhmbfJMR4Hx1c5psqIs',
     scope: 'GOOGLE',
@@ -1168,9 +1072,7 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurante-71.png',
     ],
     name: 'Insano hamburgueria na brasa',
-    opening_hours: {
-      open_now: false,
-    },
+
     photo: [''],
     google_id: 'ChIJFfpy2OibfJMR9OEzPZJfT88',
     scope: 'GOOGLE',
@@ -1202,9 +1104,6 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurante-71.png',
     ],
     name: 'restaurantee Beira Rio',
-    opening_hours: {
-      open_now: true,
-    },
     photo: [''],
     google_id: 'ChIJrZNDZ7SafJMRJ1AtWwFaZ74',
     scope: 'GOOGLE',
@@ -1235,9 +1134,7 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurante-71.png',
     ],
     name: 'PASTELARIA EXPLOSÃO DE SABOR',
-    opening_hours: {
-      open_now: false,
-    },
+
     photo: [''],
     google_id: 'ChIJ7V6UwnyFfJMRKkjxNTba7zY',
     scope: 'GOOGLE',
@@ -1268,9 +1165,6 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurante-71.png',
     ],
     name: 'Ponto Mineiro ( Jantinha , Caldoz , E Espeto Simples )',
-    opening_hours: {
-      open_now: true,
-    },
     photo: [''],
     google_id: 'ChIJOY9bckqFfJMRuwS9mFwY9TY',
     scope: 'GOOGLE',
@@ -1301,9 +1195,7 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurante-71.png',
     ],
     name: 'Pit Stop Lanches',
-    opening_hours: {
-      open_now: false,
-    },
+
     photo: [''],
     google_id: 'ChIJURygd8ybfJMR7FUixfwegQQ',
     scope: 'GOOGLE',
@@ -1334,9 +1226,6 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurante-71.png',
     ],
     name: 'Paris Gourmet',
-    opening_hours: {
-      open_now: true,
-    },
     photo: [''],
     google_id: 'ChIJRekfWWGFfJMRhxrQkih4dR4',
     scope: 'GOOGLE',
@@ -1368,9 +1257,7 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurante-71.png',
     ],
     name: 'Brocadão Lanches',
-    opening_hours: {
-      open_now: false,
-    },
+
     photo: [''],
     google_id: 'ChIJRaKs-oSFfJMR6rb4hv647c8',
     scope: 'GOOGLE',
@@ -1401,9 +1288,7 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurante-71.png',
     ],
     name: 'Cohab Lanches',
-    opening_hours: {
-      open_now: false,
-    },
+
     photo: [''],
     google_id: 'ChIJc6JqnzSFfJMRsyLFFj3o27k',
     scope: 'GOOGLE',
@@ -1434,9 +1319,7 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurante-71.png',
     ],
     name: 'Da hora lanches',
-    opening_hours: {
-      open_now: false,
-    },
+
     photo: [''],
     google_id: 'ChIJoVOSm2aRfJMR5bfscOF_j1k',
     scope: 'GOOGLE',
@@ -1470,9 +1353,7 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png',
     ],
     name: 'Tereré & Afins...',
-    opening_hours: {
-      open_now: false,
-    },
+
     photo: [''],
     google_id: 'ChIJkyFXiLSafJMRx0YYHE1u6SI',
     scope: 'GOOGLE',
@@ -1505,9 +1386,6 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurante-71.png',
     ],
     name: 'Banana’s',
-    opening_hours: {
-      open_now: true,
-    },
     photo: [''],
     google_id: 'ChIJd2N6J7eFfJMRlThCMaKRvU4',
     scope: 'GOOGLE',
@@ -1537,9 +1415,7 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurante-71.png',
     ],
     name: 'Casa de Caldo E restaurantee Sabor Caseiro',
-    opening_hours: {
-      open_now: false,
-    },
+
     photo: [''],
     google_id: 'ChIJ7UnipE2FfJMRdfHjpMFkhM4',
     scope: 'GOOGLE',
@@ -1569,9 +1445,7 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurante-71.png',
     ],
     name: 'Pastelaria Martins - Feira Municipal',
-    opening_hours: {
-      open_now: false,
-    },
+
     photo: [''],
     google_id: 'ChIJqbx5UfebfJMREEs0E6VUSCQ',
     scope: 'GOOGLE',
@@ -1601,9 +1475,7 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurante-71.png',
     ],
     name: 'Cecilia Sabores',
-    opening_hours: {
-      open_now: false,
-    },
+
     photo: [''],
     google_id: 'ChIJvVFN7lKbfJMRczyr-E_1R30',
     scope: 'GOOGLE',
@@ -1634,9 +1506,6 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurante-71.png',
     ],
     name: 'Padaria & Lanchonete Ki Sabor',
-    opening_hours: {
-      open_now: true,
-    },
     photo: [''],
     google_id: 'ChIJbQ8zhhmbfJMR4Hx1c5psqIs',
     scope: 'GOOGLE',
@@ -1668,9 +1537,7 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurante-71.png',
     ],
     name: 'Route Hamburgueria',
-    opening_hours: {
-      open_now: false,
-    },
+
     photo: [''],
     google_id: 'ChIJWS8ldrSbfJMROmsEjvjeZR4',
     scope: 'GOOGLE',
@@ -1700,9 +1567,7 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurante-71.png',
     ],
     name: 'POINT DA GABIROBA',
-    opening_hours: {
-      open_now: false,
-    },
+
     photo: [''],
     google_id: 'ChIJx9w-RyubfJMRtRxp4stH7sk',
     scope: 'GOOGLE',
@@ -1732,9 +1597,7 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurante-71.png',
     ],
     name: 'Ponto do Açaí e Sorveteria',
-    opening_hours: {
-      open_now: false,
-    },
+
     photo: [''],
     google_id: 'ChIJG5Y65babfJMRZ63F_m7yCYw',
     scope: 'GOOGLE',
@@ -1765,9 +1628,7 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurante-71.png',
     ],
     name: 'Açaí Delivery',
-    opening_hours: {
-      open_now: false,
-    },
+
     photo: [''],
     google_id: 'ChIJWWVd2nebfJMRaQmZKS49ow0',
     scope: 'GOOGLE',
@@ -1799,9 +1660,6 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurante-71.png',
     ],
     name: 'restaurantee e Espetos Pantanal',
-    opening_hours: {
-      open_now: true,
-    },
     photo: [''],
     google_id: 'ChIJucPoFmKbfJMRrRH-fbYbOuQ',
     scope: 'GOOGLE',
@@ -1831,9 +1689,7 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurante-71.png',
     ],
     name: 'Insano hamburgueria na brasa',
-    opening_hours: {
-      open_now: false,
-    },
+
     photo: [''],
     google_id: 'ChIJFfpy2OibfJMR9OEzPZJfT88',
     scope: 'GOOGLE',
@@ -1864,9 +1720,7 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurante-71.png',
     ],
     name: 'Pastelaria Oishii',
-    opening_hours: {
-      open_now: false,
-    },
+
     photo: [''],
     google_id: 'ChIJg_4IWAubfJMR5W-xHYeKmos',
     scope: 'GOOGLE',
@@ -1896,9 +1750,7 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurante-71.png',
     ],
     name: 'Prime Hot Dog',
-    opening_hours: {
-      open_now: false,
-    },
+
     photo: [''],
     google_id: 'ChIJs5SiF7KafJMR8uo4YUimK8A',
     scope: 'GOOGLE',
@@ -1928,9 +1780,7 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurante-71.png',
     ],
     name: 'restaurantee Fogão A Lenha',
-    opening_hours: {
-      open_now: false,
-    },
+
     photo: [''],
     google_id: 'ChIJbw04XAyQfJMRjZhDrxNL1AI',
     scope: 'GOOGLE',
@@ -1960,9 +1810,7 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurante-71.png',
     ],
     name: 'Alto Araguaia rua Jucelino Kubitschek',
-    opening_hours: {
-      open_now: false,
-    },
+
     photo: [''],
     google_id: 'ChIJobpyJoKbfJMRw4BZhrFqDAc',
     scope: 'GOOGLE',
@@ -1992,9 +1840,7 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
       'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurante-71.png',
     ],
     name: 'Bistrô Faroeste Caboclo',
-    opening_hours: {
-      open_now: false,
-    },
+
     photo: [''],
     google_id: 'ChIJs51gB7KafJMRr3dCjzWOMnw',
     scope: 'GOOGLE',
