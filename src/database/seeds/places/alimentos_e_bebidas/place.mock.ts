@@ -963,39 +963,6 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
     geometry: {
       location: {
         type: 'Point',
-        coordinates: [-17.3275068, -53.2193688],
-      },
-      viewport: {
-        northeast: [-17.3261963697085, -53.2180484197085],
-        southwest: [-17.3288943302915, -53.22074638029149],
-      },
-    },
-    icon_uri: [
-      'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurante-71.png',
-    ],
-    name: 'Pão Caseiro & Bolos',
-
-    photo: [''],
-    google_id: 'ChIJtb90-NzxXpMRgpUEfn4ibI4',
-    scope: 'GOOGLE',
-    description: '',
-    address:
-      'Ao lado do Bilinão, Rua Pedro Fávero, 27 - Gabiroba, Alto Araguaia',
-    subtypes: [
-      'padaria',
-      'entrega_de_refeição',
-      'loja',
-      'comida',
-      'ponto_de_interesse',
-      'estabelecimento',
-    ],
-  },
-  {
-    business_status: 'OPERATIONAL',
-    type: 'Alimentos e bebidas',
-    geometry: {
-      location: {
-        type: 'Point',
         coordinates: [-17.324003, -53.2058543],
       },
       viewport: {
@@ -1336,39 +1303,6 @@ export const mockDataPlaceAlimentos: CreatePlaceDto[] = [
 
   // restaurantee
 
-  {
-    business_status: 'OPERATIONAL',
-    type: 'Alimentos e bebidas',
-    geometry: {
-      location: {
-        type: 'Point',
-        coordinates: [-17.3109699, -53.22103380000001],
-      },
-      viewport: {
-        northeast: [-17.3096864197085, -53.21975456970851],
-        southwest: [-17.3123843802915, -53.2224525302915],
-      },
-    },
-    icon_uri: [
-      'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png',
-    ],
-    name: 'Tereré & Afins...',
-
-    photo: [''],
-    google_id: 'ChIJkyFXiLSafJMRx0YYHE1u6SI',
-    scope: 'GOOGLE',
-    description: '',
-    address:
-      'Rua Silvio Jose de Castro Maia, n° 1.238 - Boiadeiro, Alto Araguaia',
-    subtypes: [
-      'cafe',
-      'restaurante',
-      'ponto_de_interesse',
-      'comida',
-      'loja',
-      'estabelecimento',
-    ],
-  },
   {
     business_status: 'OPERATIONAL',
     type: 'Alimentos e bebidas',
