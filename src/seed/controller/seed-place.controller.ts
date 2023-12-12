@@ -20,7 +20,7 @@ export class SeedPlaceController {
   async seedData(): Promise<{ message: string }> {
     try {
       await this.seedService.seedDataPlace();
-      return { message: 'Dados inseridos com sucesso.' };
+      return { message: 'Dados inseridos em place com sucesso.' };
     } catch (error) {
       throw new HttpException(
         `Erro ao inserir dados no banco de dados: ${error.message}`,
