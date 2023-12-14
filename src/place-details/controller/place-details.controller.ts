@@ -26,9 +26,16 @@ export class PlaceDetailsController {
     return places;
   }
 
-  @Get(':google_id')
-  async getPlace(@Param('google_id') google_id: string): Promise<PlaceDetails> {
-    return this.placeDetailsService.findById(google_id);
+  @Get(':id')
+  async getPlace(@Param('id') id: string): Promise<PlaceDetails> {
+    return this.placeDetailsService.findById(id);
+  }
+
+  @Get('google/:google_id')
+  async getPlaceGoogleId(
+    @Param('google_id') google_id: string,
+  ): Promise<PlaceDetails> {
+    return this.placeDetailsService.findDetailsByGoogleId(google_id);
   }
 
   @Post()
