@@ -16,8 +16,8 @@ export class PlaceDetailsService {
     return places;
   }
 
-  async findById(id: string): Promise<PlaceDetails> {
-    const place = await this.placeDetailsModel.findById(id);
+  async findById(google_id: string): Promise<PlaceDetails> {
+    const place = await this.placeDetailsModel.findById(google_id);
 
     if (!place) {
       throw new NotFoundException('Local não encontrado.');
