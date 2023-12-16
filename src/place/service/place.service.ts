@@ -70,7 +70,7 @@ export class PlaceService {
     longitude: number,
     query: Query,
   ): Promise<{ places: Place[]; open_now: boolean }[]> {
-    const resPerPage = 6;
+    const resPerPage = 28;
     const currentPage = Number(query.page) || 1;
     const skip = resPerPage * (currentPage - 1);
 
